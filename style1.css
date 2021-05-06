@@ -1,0 +1,167 @@
+				
+		@keyframes hover1 {
+		0% {font-size:50px}
+		100% {font-size:53px}
+		}
+		
+		@keyframes out1 {
+		0% {font-size:53px}
+		100% {font-size:50px}
+		}
+		
+		@keyframes hover0 {
+		0% {background-color:}
+		100% {background-color:#3b74bf}
+		}
+		
+		@keyframes out0 {
+		0% {background-color:#3b74bf}
+		100% {background-color:}
+		}
+		
+		@keyframes click1 {
+		0% {font-size:60px};
+		100% {font-size:120px};
+		}
+		
+
+		a:link {
+		color: #d1f9ff;
+		text-decoration: none;
+		}
+				
+		a:visited {
+		color: #d1f9ff;
+		text-decoration: none;
+		}
+		
+		body { background-color:#233040;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0;}
+		
+		.bar1 { background-image: url('https://media.discordapp.net/attachments/832328620386811945/836996629973565490/unknown.png'); 
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;
+						}
+		
+			.bar1:hover { animation-name:hover1;
+					animation-duration:0.2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+					animation-direction: normal;
+					animation-fill-mode:forwards
+					}
+				
+		
+		.bar2 { background-image: url('https://media.discordapp.net/attachments/832328620386811945/836999864566939658/unknown.png');  
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;			}
+			
+			.bar2:hover { animation-name:hover1;
+				animation-duration:0.2s;
+				animation-timing-function: ease-in-out;
+				animation-iteration-count: 1;
+				animation-direction: normal;
+				animation-fill-mode:forwards}
+		
+		.bar3 { background-image: url('https://media.discordapp.net/attachments/832328620386811945/836997687957258280/unknown.png');  
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900; 
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;			}
+			
+			.bar3:hover { animation-name:hover1;
+				animation-duration:0.2s;
+				animation-timing-function: ease-in-out;
+				animation-iteration-count: 1;
+				animation-direction: normal;
+				animation-fill-mode:forwards}
+				
+		.topnav { background-color:#2F3E52;
+				padding: 16px;
+				}
+		
+			.topnav a { 
+						color: #f2f2f2;
+						background-color:#2F3E52;
+						padding: 16px;	
+						animation-name:out0;
+						animation-duration:0.3s;
+						ation-fill-mode:forwards;
+						}
+					
+			.topnav a:hover {
+								animation-name:hover0;
+								animation-duration:0.3s;
+								animation-fill-mode:forwards;
+							}
+						
+			.topnav a.active {
+								background-color: #179aff;
+							}	
+
+
+		.text1 {color:white;
+			font-size:25px;
+			padding:35px;
+			font-family:sans-serif;
+			line-height:1.5;
+		}
+		
+		h1 {color:white;
+			font-size:40px;
+			text-align: center;
+			padding:10px;
+			font-family:sans-serif;
+			line-height:1.5;
+		}
+		
+		h2 {color:grey;
+			font-size:20px;
+			padding:30px;
+			font-family:sans-serif;
+			line-height:1.5;
+			
+		}
+		
+		h3 {color:#456999;
+			font-size:20px;
+			padding:30px;
+			font-family:sans-serif;
+			line-height:1.5;
+		}
+		
+		
+		
